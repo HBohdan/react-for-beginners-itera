@@ -3,6 +3,7 @@ import data from '../personalData.json';
 import Name from './Name';
 import Biography from './Biography';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Name name={data['First Name']} />
       <Biography biography={data['Short biography']} />
       <Contact contact={data['Public contact']} />
+      <Footer copyright='HB' />
     </div>
   );
 }

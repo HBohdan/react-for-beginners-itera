@@ -1,11 +1,11 @@
 type BiographyProps = {
-	biography: string;
+  biography: string;
 }
 
 const Biography: React.FC<BiographyProps> = ({ biography }) => {
-	return (
-		<p>{biography}</p>
-	);
+  return (
+    <p>{biography}</p>
+  );
 }
 
 export default Biography;
