@@ -1,9 +1,9 @@
 import './App.css';
-import data from '../personalData.json';
-import Name from './Name';
-import Biography from './Biography';
-import Contact from './Contact';
-import Footer from './Footer';
+import data from '../../personalData.json';
+import Name from '../Name/Name';
+import Biography from '../Biography/Biography';
+import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 const App = () => {
   return (

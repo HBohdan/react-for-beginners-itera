@@ -1,10 +1,10 @@
-import { Component } from 'react';
+import { PureComponent } from 'react';
 
 type ContactProps = {
   contact: string;
 }
 
-class Contact extends Component<ContactProps> {
+class Contact extends PureComponent<ContactProps> {
 
   render() {
     return (
